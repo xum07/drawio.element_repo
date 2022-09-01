@@ -1,0 +1,62 @@
+<shape aspect="variable" h="100" name="2 Data Ports D Flip-Flop" strokewidth="inherit" w="100">
+  <connections>
+    <constraint name="D1" perimeter="0" x="0" y="0.2" />
+    <constraint name="CLK1" perimeter="0" x="0" y="0.4" />
+    <constraint name="D2" perimeter="0" x="0" y="0.6" />
+    <constraint name="CLK2" perimeter="0" x="0" y="0.8" />
+    <constraint name="Q" perimeter="0" x="1" y="0.3" />
+    <constraint name="Q" perimeter="0" x="1" y="0.7" />
+    <constraint name="S" perimeter="0" x="0.5" y="0" />
+    <constraint name="R" perimeter="0" x="0.5" y="1" />
+  </connections>
+  <background>
+    <rect h="80" w="60" x="20" y="10" />
+  </background>
+  <foreground>
+    <fillstroke />
+    <path>
+      <!-- D1 -->
+      <move x="0" y="20" />
+      <line x="20" y="20" />
+      <!-- CLK1 -->
+      <move x="0" y="40" />
+      <line x="20" y="40" />
+      <move x="20" y="37.5" />
+      <line x="25" y="40" />
+      <line x="20" y="42.5" />
+      <!-- D2 -->
+      <move x="0" y="60" />
+      <line x="20" y="60" />
+      <!-- CLK2 -->
+      <move x="0" y="80" />
+      <line x="20" y="80" />
+      <move x="20" y="77.5" />
+      <line x="25" y="80" />
+      <line x="20" y="82.5" />
+      <!-- Q -->
+      <move x="80" y="30" />
+      <line x="100" y="30" />
+      <!-- Qbar -->
+      <move x="80" y="70" />
+      <line x="100" y="70" />
+      <!-- Qbar str -->
+      <move x="72" y="68" />
+      <line x="78" y="68" />
+      <!-- Set -->
+      <move x="50" y="0" />
+      <line x="50" y="10" />
+      <!-- Reset -->
+      <move x="50" y="90" />
+      <line x="50" y="100" />
+    </path>
+    <stroke />
+    <text align="center" str="D1" valign="bottom" x="25" y="22.5" />
+    <text align="center" str="CLK1" valign="bottom" x="32.5" y="42.5" />
+    <text align="center" str="D2" valign="bottom" x="25" y="62.5" />
+    <text align="center" str="CLK2" valign="bottom" x="32.5" y="82.5" />
+    <text align="center" str="Q" valign="bottom" x="75" y="33" />
+    <text align="center" str="Q" valign="bottom" x="75" y="74" />
+    <text align="center" str="S" valign="bottom" x="50" y="17" />
+    <text align="center" str="R" valign="bottom" x="50" y="89" />
+  </foreground>
+</shape>
