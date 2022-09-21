@@ -1,0 +1,17 @@
+<shape aspect="variable" h="2" name="PI" strokewidth="inherit" w="5">
+  <connections>
+    <constraint name="PI output" perimeter="0" x="1" y="0.5" />
+  </connections>
+  <foreground>
+    <fillstroke />
+    <path>
+      <move x="0" y="0" />
+      <line x="3" y="0" />
+      <line x="5" y="1" />
+      <line x="3" y="2" />
+      <line x="0" y="2" />
+      <line x="0" y="0" />
+    </path>
+    <stroke />
+  </foreground>
+</shape>

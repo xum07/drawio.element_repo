@@ -1,0 +1,34 @@
+<shape aspect="variable" h="80" name="Latch" w="100">
+  <connections>
+    <constraint name="D" perimeter="0" x="0" y="0.25" />
+    <constraint name="E" perimeter="0" x="0" y="0.75" />
+    <constraint name="Q" perimeter="0" x="1" y="0.25" />
+    <constraint name="Qbar" perimeter="0" x="1" y="0.75" />
+  </connections>
+  <background>
+    <rect h="80" w="60" x="20" y="0" />
+  </background>
+  <foreground>
+    <fillstroke />
+    <path>
+      <move x="0" y="20" />
+      <line x="20" y="20" />
+      <move x="0" y="60" />
+      <line x="20" y="60" />
+      <move x="80" y="20" />
+      <line x="100" y="20" />
+      <move x="71" y="55" />
+      <line x="79" y="55" />
+      <move x="80" y="60" />
+      <line x="100" y="60" />
+      <fillstroke />
+      <ellipse h="5" w="5" x="15" y="57.5" />
+      <fillstroke />
+    </path>
+    <stroke />
+    <text align="center" str="D" valign="bottom" x="25" y="25" />
+    <text align="center" str="E" valign="bottom" x="25" y="65" />
+    <text align="center" str="Q" valign="bottom" x="75" y="25" />
+    <text align="center" str="Q" valign="bottom" x="75" y="65" />
+  </foreground>
+</shape>
